@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(29, 29, 29);
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.header_nav{
+    display: flex;
+    gap: 30px;
+    color: white;
+    transition: 0.005ms;
+}
+.header_nav a{
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo p {
+    margin-top: 20px;
+}
+.header_nav a:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(34, 30, 30);
+    border-radius: 30px;
+    padding: 10px;
+}
+section{
+    color: rgb(255, 0, 21);
+}
+.main_info{
+    display: flex;
+    justify-content: space-between;
+}
+.logo1{
+    margin-top: 200px;
+    font-size: 40px;
+    
+}
+h1{
+    color: white;
+}
+.logo2{
+    margin-left: 340px;
+}
+.main_center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.p2{
+    color: rgb(255, 0, 0);
+}
+.main_center1{
+    font-size: 25px;
+    color: white;
+}
+.main_p{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.main_p1{
+    width: 600px;
+}
+.p3{
+    color:gray;
+    width: 400px;
+    margin-top: 50px;
+}
+button{
+    width:170px;
+    height: 64px;
+    border: transparent;
+    background-color: rgb(255, 0, 0);
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.p4{
+    width: 400px;
+    
+}
+
+.main_right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color:white;
+    margin-right:400px;
+}
+.img img{
+    position: relative;
+    margin-top: 100px;
+    
+}
+.img1{
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -60px;
+}
+.img2{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.p6{
+    width: 400px;
+    margin-top: 50px;
+    color: rgb(128, 128, 128);
+}
+h2{
+    width: 300px;
+}
+
+.p5{
+    margin-left: 600px;
+    color: white;
+}
+.app{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.img7{
+    margin-left: 100px;
+}
+.img8{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.cardup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.cardup2{
+    color: gray;
+    width: 400px;
+}
+.cardup1{
+    color: white;
+    font-size: 25px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 50px;
+}
