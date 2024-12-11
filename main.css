@@ -2,170 +2,115 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, serif;
     list-style: none;
     text-decoration: none;
-    background-color: rgb(29, 29, 29);
 }
 .container{
     max-width: 1200px;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
-    list-style: none;
     align-items: center;
+    margin-top: 50px;
 }
-.header_nav{
-    display: flex;
-    gap: 30px;
-    color: white;
-    transition: 0.005ms;
+ul{
+    display:flex ;
+    gap: 25px;
 }
-.header_nav a{
-    color: white;
+.nav_link{
+    color: #737373;
+    font-size: 18px;
+    font-weight: 300px;
 }
-.logo{
-    display: flex;
-    align-items: center;
+.header_text h2{
+    font-size: 50px;
+    font-weight: 900;
+    width: 596px;
+    margin-bottom: 56px;
+}
+.header_text button{
+    width: 179px;
+    height: 53px;
+    border: none;
     
+    border-radius: 7px;
+    color: white;
+    background: linear-gradient(95.2deg, #b90160 2.23%, #2a2e94 99.51%);
+
+
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.logo p {
-    margin-top: 20px;
+.main_h1{
+    text-align: center;
 }
-.header_nav a:hover{
-    color: rgb(255, 0, 0);
-    background-color: rgb(34, 30, 30);
-    border-radius: 30px;
-    padding: 10px;
-}
-section{
-    color: rgb(255, 0, 21);
+.img2{
+    width:500px;
+    height: 400px;
+    margin-top: 100px;
+    
 }
 .main_info{
     display: flex;
     justify-content: space-between;
-}
-.logo1{
-    margin-top: 200px;
-    font-size: 40px;
-    
-}
-h1{
-    color: white;
-}
-.logo2{
-    margin-left: 340px;
-}
-.main_center{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 20px;
-    margin-top: 100px;
-}
-.p2{
-    color: rgb(255, 0, 0);
-}
-.main_center1{
-    font-size: 25px;
-    color: white;
-}
-.main_p{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-.main_p1{
-    width: 600px;
-}
-.p3{
-    color:gray;
-    width: 400px;
-    margin-top: 50px;
-}
-button{
-    width:170px;
-    height: 64px;
-    border: transparent;
-    background-color: rgb(255, 0, 0);
-    border-radius: 30px;
-    margin-top: 50px;
-    font-size: 20px;
-}
-.p4{
-    width: 400px;
-    
-}
-
-.main_right{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    color:white;
-    margin-right:400px;
-}
-.img img{
-    position: relative;
-    margin-top: 100px;
-    
-}
-.img1{
-    position: absolute;
-    margin-left: -100px;
-    margin-top: -60px;
-}
-.img2{
     margin-left: 100px;
-    margin-top: 100px;
+    margin-right: 120px;
 }
-.p6{
-    width: 400px;
-    margin-top: 50px;
-    color: rgb(128, 128, 128);
+.card{
+    width: 344px;
+    height: 214px;
+    background-color: rgb(234, 234, 234);
+    border-radius:0 0 30px 30px;
 }
 h2{
-    width: 300px;
+    margin-left: 20px;
 }
+p{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.img4{
+    margin-top: 200px;
+    
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+}
+@media(min-width:768px) and (max-width:1200px){
+        nav{
+            justify-content: space-around;
+        }
+        .header_content{
+            flex-direction: column-reverse;
+        }
+}
+@media(max-width:768px){
+    .nav_img{
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+    ul{
+        display: none;
+    }
+    .header_text h2{
+        width: 323px;
+    }
+    .header_text{
+        margin-left: 100px;
+    }
+    .header_content{
+        margin-bottom: 150px;
+    }
 
-.p5{
-    margin-left: 600px;
-    color: white;
-}
-.app{
-    margin-top: 30px;
-    display: flex;
-    gap: 20px;
-}
-.img7{
-    margin-left: 100px;
-}
-.img8{
-    margin-left: 100px;
-    margin-top: 50px;
-}
-.cardup{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-}
-.cardup2{
-    color: gray;
-    width: 400px;
-}
-.cardup1{
-    color: white;
-    font-size: 25px;
-}
-footer{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    margin-top: 50px;
 }
